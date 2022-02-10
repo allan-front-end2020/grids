@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 100vh;
+}
+
+.cx1 {
+    background-color: #00CED1;
+    border: solid 3px black;
+}
+
+.cx2 {
+    background-color: #2E8B57;
+    border: solid 3px black;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 80vh 20vh;
+}
+
+.cx1 {
+    background-color: blue;
+    border: solid 3px black;
+}
+
+.cx2 {
+    background-color: aqua;
+    border: solid 3px black;
+}
+
+.cx2 {
+    background-color: rgb(117, 38, 100);
+    border: solid 3px black;
+}
