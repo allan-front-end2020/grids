@@ -7,23 +7,42 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 100vh;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
 }
 
 .cx1 {
     background-color: red;
     border: solid 3px black;
+    grid-column-start: 1;
+    grid-column-end: 7;
 }
 
 .cx2 {
-    background-color: yellow;
+    background-color: #4B0082;
     border: solid 3px black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    ;
 }
 
 .cx-3 {
-    background-color: #7CFC00;
+    background-color: red;
     border: solid 3px black;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.cx4 {
+    background-color: grey;
+    border: solid 3px black;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-column-start: 2;
     display: flex;
     justify-content: center;
     align-items: center;
